@@ -16,15 +16,15 @@
 .button {
     align-items: stretch;
     opacity: 1;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    background-color: rgb(109, 138, 233);
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: rgb(226, 226, 226);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
     border-left-color: rgb(43, 43, 43);
     border-right-color: rgb(43, 43, 43);
     border-top-color: rgb(43, 43, 43);
@@ -66,4 +66,25 @@
 .active {
     display: flex;
     opacity: 100%;
+}
+
+label {
+    display: none;
+}
+
+button {
+    color: transparent;
+}
+
+* {
+    font: none;
+    color: transparent;
+}
+
+* {
+    background-image: none;
+}
+
+*:before:after {
+    content: none;
 }
