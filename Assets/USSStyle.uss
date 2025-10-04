@@ -1,0 +1,69 @@
+.active {
+    transition-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.55);
+    display: flex;
+    opacity: 10;
+}
+
+.panel {
+    background-color: rgb(255, 239, 191);
+}
+
+.header {
+    position: relative;
+}
+
+.button {
+    align-items: stretch;
+    opacity: 1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(109, 138, 233);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(43, 43, 43);
+    border-right-color: rgb(43, 43, 43);
+    border-top-color: rgb(43, 43, 43);
+    border-bottom-color: rgb(43, 43, 43);
+}
+
+.section {
+    width: 100%;
+    background-color: rgb(106, 137, 180);
+}
+
+.tabButton {
+    width: 100%;
+    background-color: rgb(0, 156, 180);
+    background-size: 100% 100%;
+    align-self: auto;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.tab-screen {
+    position: absolute;
+    top: 0;
+    left: auto;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+    height: 900px;
+    background-color: rgb(55, 73, 94);
+}
+
+.hidden {
+    opacity: 0;
+    display: none;
+}
+
+.panel {
+}
+
+.active {
+    display: flex;
+    opacity: 100%;
+}
