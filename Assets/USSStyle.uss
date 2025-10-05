@@ -20,7 +20,7 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    background-color: rgb(109, 138, 233);
+    background-color: rgb(149, 214, 75);
     border-top-width: 2px;
     border-right-width: 2px;
     border-bottom-width: 2px;
@@ -29,6 +29,7 @@
     border-right-color: rgb(43, 43, 43);
     border-top-color: rgb(43, 43, 43);
     border-bottom-color: rgb(43, 43, 43);
+    background-image: url("project://database/Assets/2D%20Casual%20UI/Sprite/GUI.png?fileID=21300038&guid=1eaee135ce037439d925cee5e41ce026&type=3#GUI_19");
 }
 
 .section {
@@ -38,11 +39,25 @@
 
 .tabButton {
     width: 100%;
-    background-color: rgb(0, 156, 180);
+    background-color: rgb(14, 19, 65);
     background-size: 100% 100%;
     align-self: auto;
     justify-content: space-evenly;
     align-items: stretch;
+    background-image: none;
+    -unity-background-image-tint-color: rgb(37, 62, 125);
+    border-left-color: rgb(3, 0, 41);
+    border-right-color: rgb(3, 0, 41);
+    border-top-color: rgb(3, 0, 41);
+    border-bottom-color: rgb(3, 0, 41);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
 }
 
 .tab-screen {
@@ -61,9 +76,17 @@
 }
 
 .panel {
+    opacity: 1;
 }
 
 .active {
     display: flex;
     opacity: 100%;
+}
+
+.btnLabel {
+    width: 100%;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
 }

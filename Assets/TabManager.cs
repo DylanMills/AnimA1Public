@@ -130,7 +130,7 @@ public class TabManager : MonoBehaviour
             var child = button.Children().First();
             if (child == null) continue;
 
-            float targetY = (i == currentTab) ? -80f : 0f;
+            float targetY = (i == currentTab) ? -30f : 0f;
             StartCoroutine(AnimateTabButtonChild(child, targetY));
         }
     }
