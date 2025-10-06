@@ -706,7 +706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiDocument: {fileID: 860546685}
-  popupDuration: 0.25
+  popupDuration: 0.3
   popupEasing:
     serializedVersion: 2
     m_Curve:
@@ -720,18 +720,27 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
+      time: 0.14159
+      value: 1.0990424
+      inSlope: 2.155174
+      outSlope: 2.155174
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0
+      inWeight: 0.33333334
+      outWeight: 0.33357725
+    - serializedVersion: 3
+      time: 0.33169556
+      value: 1
+      inSlope: -1.7873387
+      outSlope: -1.7873387
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.17965682
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  tabSlideDuration: 0.3
+  tabSlideDuration: 0.14
   tabSlideEasing:
     serializedVersion: 2
     m_Curve:
@@ -757,8 +766,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   tabSlideDistancePercent: 100
-  buttonBounceDuration: 0.25
-  buttonBounceScale: 1.2
+  buttonBounceDuration: 0.15
+  buttonBounceScale: 1.1
   buttonBounceEasing:
     serializedVersion: 2
     m_Curve:
